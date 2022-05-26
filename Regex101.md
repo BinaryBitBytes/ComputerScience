@@ -1,13 +1,15 @@
-# Title (replace with your title)
+# Regex 101- Regular Expressions
 
-Introductory paragraph (replace this with your text)
+Introductory paragraph 
+---
+A Regex is known as a Regular expressions, or regex for short, are a series of special characters that define a search pattern. In this document I will go about describing each of the respected regular expressions in detail and provide a functional example for each regular expression to better help the reader understand how the regular expressions are written and what they are doing.
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+---
+This document will introduce methods & solutions to provide the reader with the respected solutions that will quantify their understanding of regular expressions. Below in the table of contents I will address each of the topics in detail, provide supporting resources, and best explain and demonstrate these regular expressions with a functioning example. I will include a code snippet of each of the respected regex functions for the reader.
 
 ## Table of Contents
-
+---
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Grouping Constructs](#grouping-constructs)
