@@ -39,7 +39,7 @@ This document will introduce methods & solutions to provide the reader with the 
 #### *__SOURCES__* :
 ---------------
 
->> - __https://docs.microsoft.com/en-us/dotnet/standard/base-types/quantifiers-in-regular-expressions__ : According to the Microsoft docs on *quantifiers* they are a specification of how many instances of a character, group, or character class that must be present in the input for a match to not be found. Examples of this can be expressed in __Greedy Quantifiers__ and __Lazy Quantifiers__. A few examples of a *greedy quantifier* inclue * (matched zero or more times), + (matches one or more times), ? (matches zero or one time), { n } (matches exactly n amount of times), { n ,} (matches atleast n times), and { n , m } (matches from n to m times). Lazy Quantifiers are referenced simalarly in the examples above the only difference is each of these examples above have a trailing ? mark at the end of the quantifier that make them a Lazy Quantifier.
+>> - __http://docs.microsoft.com/en-us/dotnet/standard/base-types/quantifiers-in-regular-expressions__ : According to the Microsoft docs on *quantifiers* they are a specification of how many instances of a character, group, or character class that must be present in the input for a match to not be found. Examples of this can be expressed in __Greedy Quantifiers__ and __Lazy Quantifiers__. A few examples of a *greedy quantifier* inclue * (matched zero or more times), + (matches one or more times), ? (matches zero or one time), { n } (matches exactly n amount of times), { n ,} (matches atleast n times), and { n , m } (matches from n to m times). Lazy Quantifiers are referenced simalarly in the examples above the only difference is each of these examples above have a trailing ? mark at the end of the quantifier that make them a Lazy Quantifier.
 
 >> - __https://www.regular-expressions.info/possessive.html__ : 
 
@@ -54,9 +54,13 @@ This document will introduce methods & solutions to provide the reader with the 
 ---------------
 
 >> - __https://docs.microsoft.com/en-us/dotnet/standard/base-types/grouping-constructs-in-regular-expressions__ : A __Grouping Construct__ portrays a subexpression of a regex and captures the substring of the input string. You can use these Grouping Constructs to:
+
 1 Match a subexpression that is repeated in the input string.
+
 2 Apply to a regex in a quantifier to a given subexpression that has multiple language elements.
+
 3 Include grouping constructs in a subexpression in the string that is returned by the regex to us a regex.replace & match.result form of methods.
+
 4 Retreive specific or individual subexpressions from the match.groups property and then process each one seperately from the entirety of a matches text.
 These Grouping Constructs come in two types: __Capturing__ & __Noncapturing__.
 
