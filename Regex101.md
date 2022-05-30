@@ -81,8 +81,7 @@ __Grouping construct__	                        __*Capturing or noncapturing*__
 #### *__Example__* :
 ---------------
 
-![Grouping Construct](https://user-images.githubusercontent.com/94703967/170912328-7f933c03-6617-4b06-a35d-08bf7aae3a3d.gif)
-
+![Grouping Construct ](https://user-images.githubusercontent.com/94703967/170913844-958a9892-a488-4e4e-800d-c4ebe60053a7.gif)
 
 ### Bracket Expressions
 
