@@ -32,8 +32,7 @@ This document will introduce methods & solutions to provide the reader with the 
 
 #### *__Example__* :
 ---------------
-
-![Anchor Example](C:\Users\laxmi\Desktop\PREWORK_MWC\lesson\Develop17_HW_CS\ComputerScience\homework\ComputerScience\regexExamples\anchorRegexExample.jpg)
+![anchorRegexExample](https://user-images.githubusercontent.com/94703967/170908620-6a65a7b6-35aa-4b52-9e6f-4d776e00df8b.jpg)
 
 ### Quantifiers
 
