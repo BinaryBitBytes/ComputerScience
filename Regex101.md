@@ -32,6 +32,7 @@ This document will introduce methods & solutions to provide the reader with the 
 
 #### *__Example__* :
 ---------------
+
 ![anchorRegexExample](https://user-images.githubusercontent.com/94703967/170908620-6a65a7b6-35aa-4b52-9e6f-4d776e00df8b.jpg)
 
 ### Quantifiers
@@ -76,6 +77,12 @@ __Grouping construct__	                        __*Capturing or noncapturing*__
 - __Zero-width positive lookbehind assertions__	Noncapturing
 - __Zero-width negative lookbehind assertions__	Noncapturing
 - __Atomic groups__	                            Noncapturing
+
+#### *__Example__* :
+---------------
+
+![Grouping Construct](https://user-images.githubusercontent.com/94703967/170912328-7f933c03-6617-4b06-a35d-08bf7aae3a3d.gif)
+
 
 ### Bracket Expressions
 
