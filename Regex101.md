@@ -119,6 +119,12 @@ __For Example:__
 
 >> - __https://www.ocpsoft.org/tutorials/regular-expressions/or-in-regex/__ : The __OR Operation__ will allow us to prefor a second match using the __Pipe Character ( | )__. You can use grouping and alternations in the OR operation by incorporating a __( ?: )__ in the statement. Here is a lightweight example of the OR operation. Also the __( \\w )__ statement is known as the look-ahead and look-behind statement incorporating __( ?= ) and ( ?! )__ '^I eat (?= excellence | failure)\\w+ for breakfast but I prefer eating ( ?! excellence | dog food)\\w+$.'
 
+#### *__Example__* :
+---------------
+
+![OR Operator](https://user-images.githubusercontent.com/94703967/171019568-334f8648-d64a-4eae-9a78-13550544cd2e.gif)
+
+
 ### Flags
 
 #### *__SOURCES__* : 
