@@ -46,7 +46,8 @@ This document will introduce methods & solutions to provide the reader with the 
 #### *__Example__* :
 ---------------
 
-![Quantifiers Example]("")
+![quantifierRegexExample](https://user-images.githubusercontent.com/94703967/170910938-9c018fd1-3873-4799-bcba-9f06dcdbea7a.png)
+
 
 ### Grouping Constructs
 
