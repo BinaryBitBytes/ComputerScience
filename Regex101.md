@@ -146,6 +146,7 @@ __For Example:__
 #### *__Example__* :
 ---------------
 
+![flag example with non-atomic lookahead](https://user-images.githubusercontent.com/94703967/171025419-5d303082-0b5a-4072-9f4c-59b920dcfe34.jpg)
 
 ### Character Escapes
 
