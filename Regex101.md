@@ -179,6 +179,9 @@ __For Example:__
 #### *__Example__* :
 ---------------
 
+![Escape Character](https://user-images.githubusercontent.com/94703967/171028601-b27b91a0-1a05-4399-ad52-d4495fb8f990.png)
+
+
 ## Author
 
 I am BinaryBitBytes, a junior full stack developer learning the craft of coding like a a keyboard warrior. Here Is the link to the summary of Regex101 on my GitHub profile:
