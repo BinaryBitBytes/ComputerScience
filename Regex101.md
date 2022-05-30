@@ -33,7 +33,7 @@ This document will introduce methods & solutions to provide the reader with the 
 #### *__Example__* :
 ---------------
 
-![Anchor Example](C:\Users\laxmi\OneDrive\Pictures\regexExamples\anchorRegexExample.gif)
+![Anchor Example](C:\Users\laxmi\Desktop\PREWORK_MWC\lesson\Develop17_HW_CS\ComputerScience\homework\ComputerScience\regexExamples\anchorRegexExample.jpg)
 
 ### Quantifiers
 
