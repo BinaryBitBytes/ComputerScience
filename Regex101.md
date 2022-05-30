@@ -103,8 +103,7 @@ __For Example:__
 #### *__Example__* :
 ---------------
 
-![BracketExpressionRegex](https://user-images.githubusercontent.com/94703967/170913469-7e61d7fd-c8b8-47cc-b3a6-66b2a603a255.gif)
-
+![BracketExpressionRegex](https://user-images.githubusercontent.com/94703967/170915057-e10b1186-5b0c-4118-9355-b418c32d1258.gif)
 
 ### Character Classes
 
