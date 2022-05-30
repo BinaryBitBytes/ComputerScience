@@ -112,6 +112,11 @@ __For Example:__
 
 >> - __https://www.regular-expressions.info/charclass.html__ : *Character Classes* are also called a __Character Set__. Character sets are regex's that will match only one out of several characters. There are also __Negated Character Classes__ and these classes match any character that is not in the character class. *Such as __invisible line breaks__*. You can also leverage metacharacters inside character class regex statements.
 
+#### *__Example__* :
+---------------
+
+![character classes](https://user-images.githubusercontent.com/94703967/171020790-ff30c4e2-dd90-4362-b91f-515833418f59.jpg)
+
 ### The OR Operator
 
 #### *__SOURCES__* : 
