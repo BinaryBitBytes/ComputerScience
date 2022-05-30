@@ -99,7 +99,13 @@ __For Example:__
 - __[.fu.]__ : Matches a multi-character collating element, such as fun.
 - __[=t=]__ : Matches all collating elements with the same primary sort order as the element, including this element contained as itself.
 
->> - __https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap09.html__ : A __Bracket Expression__ is
+>> - __https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap09.html__ :
+
+#### *__Example__* :
+---------------
+
+![BracketExpressionRegex](https://user-images.githubusercontent.com/94703967/170913469-7e61d7fd-c8b8-47cc-b3a6-66b2a603a255.gif)
+
 
 ### Character Classes
 
