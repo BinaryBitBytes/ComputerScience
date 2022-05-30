@@ -30,6 +30,11 @@ This document will introduce methods & solutions to provide the reader with the 
 
 >> - __https://www.regular-expressions.info/anchors.html__ : The caret ^ matches the position before the first character in the string and $ matches right after the last character in the string. __*Anchors do not match characters*__, *rather they match positions* of characters __*before, inbetween, or after*__ in a regular expression in a __specific position__ of a string or value. These searches on anchors can only find __zero-length matches__ but they can also be used to create searches for __*complications*__. A user can __trim the leading white space with the regex anchor function of: ^\s+__ and you can __match the trailing whitespace with the regex function of \s+$__. When dealing with a __string that runs multiple lines the regex command of \n indicates a *line break*__. Strings ending with multi line breaks can use regex functions in multi-line mode can leverage the __\Z__ to match before any number of trailing line breaks as well as the end of a string.
 
+#### *__Example__* :
+---------------
+
+![Anchor Example]("C:\Users\laxmi\OneDrive\Pictures\regexExamples\anchorRegexExample.png")
+
 ### Quantifiers
 
 #### *__SOURCES__* :
@@ -38,6 +43,11 @@ This document will introduce methods & solutions to provide the reader with the 
 >> - __https://docs.microsoft.com/en-us/dotnet/standard/base-types/quantifiers-in-regular-expressions__ : According to the Microsoft docs on *quantifiers* they are a specification of how many instances of a character, group, or character class that must be present in the input for a match to not be found. Examples of this can be expressed in __Greedy Quantifiers__ and __Lazy Quantifiers__. A few examples of a *greedy quantifier* inclue * (matched zero or more times), + (matches one or more times), ? (matches zero or one time), { n } (matches exactly n amount of times), { n ,} (matches atleast n times), and { n , m } (matches from n to m times). Lazy Quantifiers are referenced simalarly in the examples above the only difference is each of these examples above have a trailing ? mark at the end of the quantifier that make them a Lazy Quantifier.
 
 >> - __https://www.regular-expressions.info/possessive.html__ : 
+
+#### *__Example__* :
+---------------
+
+![Quantifiers Example]("")
 
 ### Grouping Constructs
 
@@ -82,11 +92,58 @@ __For Example:__
 
 ### Character Classes
 
+#### *__SOURCES__* :
+---------------
+
+>> - __https://www.regular-expressions.info/charclass.html__ : *Character Classes* are also called a __Character Set__. Character sets are regex's that will match only one out of several characters. There are also __Negated Character Classes__ and these classes match any character that is not in the character class. *Such as __invisible line breaks__*. You can also leverage metacharacters inside character class regex statements.
+
 ### The OR Operator
+
+#### *__SOURCES__* : 
+---------------
+
+>> - __https://www.ocpsoft.org/tutorials/regular-expressions/or-in-regex/__ : The __OR Operation__ will allow us to prefor a second match using the __Pipe Character ( | )__. You can use grouping and alternations in the OR operation by incorporating a __( ?: )__ in the statement. Here is a lightweight example of the OR operation. Also the __( \\w )__ statement is known as the look-ahead and look-behind statement incorporating __( ?= ) and ( ?! )__ '^I eat (?= excellence | failure)\\w+ for breakfast but I prefer eating ( ?! excellence | dog food)\\w+$.'
 
 ### Flags
 
+#### *__SOURCES__* : 
+---------------
+
+>> - __https://javascript.info/regexp-introduction#flags__: According the javascript.info resource there are only 6 flags
+1 __i__ : this flag will search for *__Case-Insensitive searches__*; meaning there is not a difference between fun and FUN in a search.
+2 __g__ : This flag will search for __ALL MATCHES__. If we didnt use __g__ then only the first match would get returned in our search.
+3 __m__ : This flag will cover multiple lines as it is called __Multiline Mode__.
+4 __s__ : This flag __enables 'DOTALL' mode that allows the . to match ( \n ); or a __new line character__.
+5 __u__ : This flag enables __Unicode Support__. This enables processing of surrogate pairs.
+6 __y__ : This flag enables __Sticky Mode__ and searches at the exact position covered in the sticky search position.
+
 ### Character Escapes
+
+#### *__SOURCES__* : 
+---------------
+
+>> - __https://www.jmp.com/support/help/zh/15.2/index.shtml#page/jmp/escaped-characters-in-regular-expressions.shtml__ : The *backslash* produces a __literal character__ You can use the backslash with common character classes such as __\s__ and __\w__ for __space__ and __word__ characters. Also other escpaed characters are as follows:
+- __TwoBackslashes__ : single backslash
+- __\A__ :start of a __st__ring
+- __\b__ :word bounda__ry. The zero-length string between \w and \W or \W and \w.
+- __\B__ :not at a word boundary
+- __\cX__ :ASCII control character
+- __\d__ :single digit [0-9]
+- __\D__ :single character that is NOT a digit [^0-9]
+- __\E__ :stop processing escaped characters
+- __\l__ :match a single lowercase letter [a-z]
+- __\L__ :single character that is not lowercase [^a-z]
+- __\Q__ :ignore escaped characters until \E is found
+- __\r__ :carriage return
+- __\s__ :single whitespace character
+- __\S__ :single character that is NOT white space
+- __\u__ :single uppercase character [A-Z]
+- __\U__ :single character that is not uppercase [^A-Z]
+- __\w__ :word character [a-zA-Z0-9_]
+- __\W__ :single character that is NOT a word character [^a-zA-Z0-9_]
+- __\x00-\xFF__ :hexadecimal character
+- __\x{0000}-\x{FFFF}__ :Unicode code point
+- __\Z__ :end of a string before the line break
 
 ## Author
 
