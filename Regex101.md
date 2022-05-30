@@ -136,12 +136,16 @@ __For Example:__
 ---------------
 
 >> - __https://javascript.info/regexp-introduction#flags__: According the javascript.info resource there are only 6 flags
-1 __i__ : this flag will search for *__Case-Insensitive searches__*; meaning there is not a difference between fun and FUN in a search.
-2 __g__ : This flag will search for __ALL MATCHES__. If we didnt use __g__ then only the first match would get returned in our search.
-3 __m__ : This flag will cover multiple lines as it is called __Multiline Mode__.
-4 __s__ : This flag __enables 'DOTALL' mode that allows the . to match ( \n ); or a __new line character__.
-5 __u__ : This flag enables __Unicode Support__. This enables processing of surrogate pairs.
-6 __y__ : This flag enables __Sticky Mode__ and searches at the exact position covered in the sticky search position.
+1. __i__ : this flag will search for *__Case-Insensitive searches__*; meaning there is not a difference between fun and FUN in a search.
+2. __g__ : This flag will search for __ALL MATCHES__. If we didnt use __g__ then only the first match would get returned in our search.
+3. __m__ : This flag will cover multiple lines as it is called __Multiline Mode__.
+4. __s__ : This flag __enables 'DOTALL' mode that allows the . to match ( \n ); or a __new line character__.
+5. __u__ : This flag enables __Unicode Support__. This enables processing of surrogate pairs.
+6. __y__ : This flag enables __Sticky Mode__ and searches at the exact position covered in the sticky search position.
+
+#### *__Example__* :
+---------------
+
 
 ### Character Escapes
 
@@ -170,6 +174,9 @@ __For Example:__
 - __\x00-\xFF__ :hexadecimal character
 - __\x{0000}-\x{FFFF}__ :Unicode code point
 - __\Z__ :end of a string before the line break
+
+#### *__Example__* :
+---------------
 
 ## Author
 
